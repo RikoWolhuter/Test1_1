@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package intro_2;
+import java.util.Scanner;
 
-/**
- *
- * @author storm
- */
 public class Intro_2 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        String name;
+        
+        System.out.println("hello class");
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Enter your name:");
+        name = scan.nextLine();
+        
     }
     
 }
